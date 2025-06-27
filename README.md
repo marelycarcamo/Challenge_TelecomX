@@ -1,5 +1,12 @@
 # 📊 Análisis de Evasión de Clientes (Churn) - Telecom X 📉
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.2-150458.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.0-11557c.svg)](https://matplotlib.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.24.1-276EF1.svg)](https://plotly.com/python/)
+[![Requests](https://img.shields.io/badge/Requests-2.32.3-222222.svg)](https://docs.python-requests.org/en/latest/)
+
+
 ![imaage](007f0f58-5970-4133-94b8-9af2551f2ab2.png)
 
 ## Índice
@@ -33,17 +40,8 @@ Para replicar este análisis, necesitarás instalar las siguientes bibliotecas d
 pip install pandas numpy matplotlib plotly requests
 ```
 
-### Versiones Utilizadas 🐍📦
 
 ### Versiones Utilizadas 🐍📦
-[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.2.2-150458.svg)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.0-11557c.svg)](https://matplotlib.org/)
-[![Plotly](https://img.shields.io/badge/Plotly-5.24.1-276EF1.svg)](https://plotly.com/python/)
-[![Requests](https://img.shields.io/badge/Requests-2.32.3-222222.svg)](https://docs.python-requests.org/en/latest/)
-
-
-## Versiones Utilizadas 🐍📦
 
 Este proyecto fue desarrollado utilizando las siguientes versiones de Python y bibliotecas:
 
@@ -52,8 +50,9 @@ Este proyecto fue desarrollado utilizando las siguientes versiones de Python y b
 -   🔢 **Numpy**: 2.0.2
 -   📈 **Matplotlib**: 3.10.0
 -   📊 **Plotly**: 5.24.1
--   🌐 **Requests**: (No se muestra versión específica en la celda, se asume versión compatible)
+-   🌐 **Requests**: 2.32.3
 
+  
 ## Origen de Datos y Descripción 📁 📁
 
 Los datos utilizados en este proyecto provienen de un archivo JSON disponible a través de una URL de GitHub. Este conjunto de datos contiene información detallada sobre clientes de Telecom X, incluyendo datos demográficos, servicios contratados (teléfono, internet y servicios adicionales) e información de la cuenta (tipo de contrato, facturación y cargos).
