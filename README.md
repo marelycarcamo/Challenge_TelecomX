@@ -93,7 +93,7 @@ A continuación se presenta el diccionario de datos con la descripción de cada 
 
 Se realizaron los siguientes pasos para limpiar y transformar el dataset:
 
-1.  **Carga y Aplanamiento:** Los datos JSON anidados fueron cargados y aplanados en un DataFrame tabular utilizando `pd.json_normalize()`.
+1. <span style='color:#56B4E9'>Carga y Aplanamiento:</span> Los datos JSON anidados fueron cargados y aplanados en un DataFrame tabular utilizando `pd.json_normalize()`.
 2.  **Primer Vistazo y Tipos de Datos:** Se realizó una inspección inicial con `.head()`, `.info()` y `.sample()` para entender la estructura, tipos de datos y identificar posibles problemas como valores nulos o vacíos.
 3.  **Corrección de Nombres:** Se corrigieron algunos nombres de columnas que contenían errores tipográficos o inconsistencias.
 4.  **Manejo de Valores Vacíos:** Se identificaron y manejaron celdas con valores vacíos (`''`), particularmente en las columnas `Churn` y `account_Charges_Total`. Los registros con valores vacíos en `Churn` fueron eliminados, y la columna `account_Charges_Total` se convirtió a tipo numérico, manejando los valores vacíos restantes como `NaN` (y luego eliminados implícitamente al convertir a numérico en el paso siguiente).
