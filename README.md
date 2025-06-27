@@ -1,5 +1,6 @@
-
 # 📊 Análisis de Evasión de Clientes (Churn) - Telecom X 📉
+
+![imaage](007f0f58-5970-4133-94b8-9af2551f2ab2.png)
 
 ## Índice
 - [Introducción](#introducción)
